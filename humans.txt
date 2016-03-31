@@ -2,14 +2,21 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
-
+    Coder:              Jeff McBride
+    Twitter:            @JeffreyMcBride
+    
 # THANKS
-
-    <name>
+    Founder & Designer: The Lovely Lyss
+    Twitter:            @TheLovelyLyss
+    
+    Founder:            Meagan Klementowski
+    Facebook:           meagan.klementowski
+    
+    Founder:            Sharma Shari
+    Twitter:            @SharmaShari
 
 # TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+    Standards:          HTML5, CSS3
+    Libraries:          Boostrap, jQuery, Modernizr
+    Editor:             Visual Studio Code (first project with it)
+    

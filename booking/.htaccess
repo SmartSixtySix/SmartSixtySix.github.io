@@ -1,6 +1,0 @@
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^booking\.smartsixtysix\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.booking\.smartsixtysix\.com$
-RewriteRule ^/?$ "http\:\/\/smartsixtysix\.com\/booking\/" [R=301,L]
-

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Smart Sixty Six</title>
+        
+        <link rel="stylesheet" href="../styles/style.css" type="text/css" media="screen">
+        <style>
+            body { 
+                background-color: #fff; 
+                margin: 0px; 
+                font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 10pt;
+            }
+            a:link, a:visited, a:active { color: black; text-decoration: underline; }
+            a:hover { color: #0099ff; text-decoration: none; }	
+            
+            .spacer { height: 25px; }
+			
+			/* Phones - Smaller than 768px */
+			.booking-media { display: table; margin: 0 auto; }
+            .media { margin: 25px; text-align: center; font-size: 10pt; }
+            .media-img { height: 100%; width: 100%; }
+			
+			@media (min-width: 768px) and (min-device-width: 768px) { 
+				.media { font-size: 14pt; }
+				.media-img { height: 225px; width: 576px; }
+			}
+        </style>
+    </head>
+    <body>
+    	<header>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="E3B3PZ3LNXPCW">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="float: right;">
+            </form>
+         	<img src="../images/SmartSixtySixLongLogo2.jpg" alt="Smart Sixty Six - A Community of Workspaces">
+            <a href="http://www.linkedin.com/company/smart-sixty-six" rel="publisher" target="_blank">
+            	<img src="../images/LinkedInIcon.png" alt="Smart Sixty Six's LinkedIn Company Page" style="float: right;">
+         	</a>
+            <a href="https://plus.google.com/100240531181914392157" rel="publisher" target="_blank">
+         		<img src="../images/GooglePlusIcon.png" alt="Smart Sixty Six's Google+ Page" style="float: right;">
+         	</a>
+            <img src="../images/SmartSixtySixPhoneNumber.jpg" alt="Call us at 855-Sixty-Six" style="float: right; padding-right:50px;"><br>
+            <div class="email-form">
+            	<a href="http://www.artistloft66.com" target="_blank"><img style="float: right;" src="../images/CheckOutOurNewArtistLoft.jpg"></a>
+                <form id="contactForm" method="POST" action="../php/sendmail.php" novalidate>
+                    <input type="text" name="nameField" id="nameField" value="Fred Flintstone" style="display: none">
+                    <label for="emailField">Cut your office costs, to find out how send us an email...</label> 
+                    <input type="email" name="emailField" id="emailField" placeholder="e.g. fred@slate.com" class="email required">
+                    <input type="submit" id="submitButton" value="Send">
+                    <label class="error" generated="true" for="emailField" ></label>
+                </form>
+            </div>
+        </header>
+        
+        <div class="spacer"></div>
+        <div class="booking-media">
+        	<div class="media">
+            	<a target="_blank" href="https://www.google.com/calendar/embed?title=Smart%20Sixty%20Six%20Booking%20Calendar&src=smartsixtysix.com_jrdtq59385b18ut5ddjlg52gps%40group.calendar.google.com&color=%23AB8B00&src=geeklearn.com_f189sdp78f4ifc230oileufpps%40group.calendar.google.com&color=%232952A3&ctz=America/New_York">
+                	View the Smart Sixty Six Conference & Virtual Office Calendars
+                </a>
+            </div>
+            <div class="media">
+                <a href="https://calendly.com/smartsixtysix/conferenceroom/" target="_blank">
+                    <img src="../images/ConferenceRoom2.jpg" class="media-img"><br/>
+                    Book the Smart Sixty Six Conference Room.
+                </a>
+            </div>
+            <div class="media">
+                <a href="https://calendly.com/geeklearn/virtualoffice/" target="_blank">
+                    <img src="/booking/images/VirtualOffice.jpg" class="media-img"><br/>
+                    Book a Smart Sixty Six Virtual Office.
+                </a>
+            </div>
+        </div>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-57227975-1', 'auto');
+			ga('send', 'pageview');
+        
+        </script>
+    </body>
+</html>

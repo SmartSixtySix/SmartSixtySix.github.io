@@ -1,0 +1,130 @@
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+/*====================*/
+/*=== Reset Styles ===*//*====================*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/* HTML5 tags */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+body {
+	font: Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	color: #333;
+}
+a, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #000;
+	text-decoration: none;
+}
+.slider-wrapper {
+	width: 100%;/*margin: 20px auto;*/
+}
+.theme-default #slider {
+/*margin:100px auto 0 auto;*/
+}
+.intro {
+	text-align: center;
+	margin-top: 30px;
+}
+/*====================*/
+/*=== Form Styles ===*/
+/*====================*/
+.email-form {
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	background: #0099ff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #fff200;
+	width: 100%;
+	z-index: 8;
+	padding: 5px 10px;
+	overflow: hidden;
+	-moz-opacity: 0.8;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.email-form p {
+	padding: 5px;
+	margin: 0;
+}
+.email-form a {
+	display: inline !important;
+}
+
+input#emailField {
+	width: 250px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 6px;
+	border: 0px solid #00C;
+	padding-left: 5px;
+	height: 20px;
+	font-size: 10pt;
+	color: #333;
+	background-color: #fff200;
+	margin: 2px 2px 2px 2px;
+}
+.error { color: #ffffff; }
+input#submitButton {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 6px;
+	border: 0px solid #00C;
+	height: 20px;
+	font-size: 10pt;
+	color: #333;
+	background-color: #fff200;
+	margin: 2px 2px 2px 2px;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear: both;
+}

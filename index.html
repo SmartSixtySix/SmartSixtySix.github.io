@@ -25,10 +25,12 @@
             <img src="images/SmartSixtySixPhoneNumber.jpg" alt="Call us at 855-Sixty-Six" style="float: right; padding-right:50px;"><br>
             <div class="email-form">
             	<!-- <a href="http://www.artistloft66.com" target="_blank"><img style="float: right;" src="images/CheckOutOurNewArtistLoft.jpg"></a> -->
-                <form id="contactForm" method="POST" action="php/sendmail.php" novalidate>
+                <form id="contactForm" method="POST" action="https://formspree.io/jeff@smartsixtysix.com.com" novalidate>
                     <input type="text" name="nameField" id="nameField" value="Fred Flintstone" style="display: none">
+                    <input type="hidden" name="_subject" value="Smart Sixty Six Website Visitor" />
+                    <input type="hidden" name="_next" value="//smartsixtysix.github.io/sent.html" />
                     <label for="emailField">Cut your office costs, to find out how send us an email...</label> 
-                    <input type="email" name="emailField" id="emailField" placeholder="e.g. fred@slate.com" class="email required">
+                    <input type="email" name="email" id="emailField" placeholder="e.g. jane@gmail.com" class="email required">
                     <input type="submit" id="submitButton" value="Send">
                     <label class="error" generated="true" for="emailField" ></label>
                 </form>
